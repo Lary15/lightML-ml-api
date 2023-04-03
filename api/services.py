@@ -1,6 +1,5 @@
 import time
 
-import pandas as pd
 import numpy as np
 
 from model.ml_training_report import MLTrainingReport
