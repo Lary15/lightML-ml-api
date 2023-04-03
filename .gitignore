@@ -1,0 +1,5 @@
+/light_api
+db.json
+*/__pycache__
+.env
+.python-version
