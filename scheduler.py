@@ -4,7 +4,7 @@ import datetime
 import requests
 import pandas as pd
 
-BANANA_API="http://192.168.0.16"
+BANANA_API="http://192.168.0.43"
 SENSORS_API="http://192.168.0.35"
 LAMP_API="http://192.168.0.46"
 
@@ -25,16 +25,16 @@ def predict():
 
     pred = requests.post(f"{BANANA_API}:3000/predict", json=[sensors]).json()
 
-    print("[PREDICT] ", pred)
+    print("[PREDICT] ", pred, flush=True)
 
     if pred[0][0] >= 0.5:
       requests.get(f"{LAMP_API}/cm?cmnd=Power%20ON", timeout=10)
-      print("[PREDICT] ", "LAMP ON")
+      print("[PREDICT] ", "LAMP ON", flush=True)
     else:
       requests.get(f"{LAMP_API}/cm?cmnd=Power%20OFF", timeout=10)
-      print("[PREDICT] ", "LAMP OFF")
+      print("[PREDICT] ", "LAMP OFF", flush=True)
   except Exception as e:
-    print("[PREDICT] ", e)
+    print("[PREDICT] ", e, flush=True)
 
 def retrain():
   try:
@@ -44,7 +44,7 @@ def retrain():
     data = pd.DataFrame(requests.get(f"{BANANA_API}:5000/peripherals?start={start}&end={end}", timeout=100).json())
     
     if data.empty:
-      print("[TRAIN] NO DATA")
+      print("[TRAIN] NO DATA", flush=True)
       return
 
     # Extract target
@@ -62,9 +62,9 @@ def retrain():
       data[col] = (data[col]-data[col].min())/(data[col].max()-data[col].min())
 
     res = requests.post(f"{BANANA_API}:3000/train", json={"x": data.to_dict('records'), "y": target.tolist()})
-    print(f"[TRAIN] DONE - RES {res.status_code}")
+    print(f"[TRAIN] DONE - RES {res.status_code}", flush=True)
   except Exception as e:
-    print('[TRAIN] ', e)
+    print('[TRAIN] ', e, flush=True)
 
 
 schedule.every().day.at("00:00").do(retrain)
