@@ -1,6 +1,7 @@
 import time
 
 import numpy as np
+import tensorflow as tf
 
 from model.ml_training_report import MLTrainingReport
 from repository.tiny_db import TinyDBRepository
@@ -16,9 +17,9 @@ def retrain(model: Model, data: List[dict]):
 
     data_list = [list(dictionary.values()) for dictionary in data["x"]]
     target_list = data["y"]
-    
-    history = model.fit(np.array(data_list), np.array(target_list), validation_split=0.15, epochs=200)
-    model.save("execution_dnn")
+
+    history = model.fit(np.array(data_list), np.array(target_list), validation_split=0.10, epochs=10)
+    tf.saved_model.save(model, "execution_dnn")
 
     return time.time() - start, history.history
 

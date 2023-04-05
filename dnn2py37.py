@@ -57,4 +57,4 @@ plot_history(history)
 model.evaluate(test_df.to_numpy(), test_y.to_numpy())
 
 # Save the model
-model.save('dnn')
+tf.saved_model.save(model, "dnn")
