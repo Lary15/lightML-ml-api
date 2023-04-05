@@ -25,16 +25,17 @@ def predict():
 
     pred = requests.post(f"{BANANA_API}:3000/predict", json=[sensors]).json()
 
+    print("[PREDICT] ", sensors, flush=True)
     print("[PREDICT] ", pred, flush=True)
 
     if pred[0][0] >= 0.5:
       requests.get(f"{LAMP_API}/cm?cmnd=Power%20ON", timeout=10)
-      print("[PREDICT] ", "LAMP ON", flush=True)
+      print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', "LAMP ON", flush=True)
     else:
       requests.get(f"{LAMP_API}/cm?cmnd=Power%20OFF", timeout=10)
-      print("[PREDICT] ", "LAMP OFF", flush=True)
+      print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', "LAMP OFF", flush=True)
   except Exception as e:
-    print("[PREDICT] ", e, flush=True)
+    print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', e, flush=True)
 
 def retrain():
   try:
@@ -62,10 +63,9 @@ def retrain():
       data[col] = (data[col]-data[col].min())/(data[col].max()-data[col].min())
 
     res = requests.post(f"{BANANA_API}:3000/train", json={"x": data.to_dict('records'), "y": target.tolist()})
-    print(f"[TRAIN] DONE - RES {res.status_code}", flush=True)
+    print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [TRAIN] DONE - RES {res.status_code}', flush=True)
   except Exception as e:
-    print('[TRAIN] ', e, flush=True)
-
+    print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [TRAIN] ', e, flush=True)
 
 schedule.every().day.at("00:00").do(retrain)
 schedule.every().hour.do(predict)
