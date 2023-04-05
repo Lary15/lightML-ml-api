@@ -67,7 +67,7 @@ def retrain():
   except Exception as e:
     print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [TRAIN] ', e, flush=True)
 
-schedule.every().day.at("00:00").do(retrain)
+schedule.every().day.at("03:00").do(retrain)
 schedule.every().hour.do(predict)
 
 while True:
