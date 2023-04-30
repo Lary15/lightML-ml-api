@@ -22,3 +22,5 @@ class MLTrainingReport:
     number_of_records: int = 0
     training_time: int = 0 # in seconds
     timestamp: int = 0
+    correct_predictions: int = 0
+    incorrect_predictions: int = 0

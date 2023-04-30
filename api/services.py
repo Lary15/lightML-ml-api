@@ -23,9 +23,11 @@ def retrain(model: Model, data: List[dict]):
 
     return time.time() - start, history.history
 
-def save_report(repo: TinyDBRepository, number_of_records: int, training_time: float, history: dict):
+def save_report(repo: TinyDBRepository, correct_predictions: int, incorrect_predictions: int, number_of_records: int, training_time: float, history: dict):
     report = MLTrainingReport()
 
+    report.correct_predictions = correct_predictions
+    report.incorrect_predictions = incorrect_predictions
     report.number_of_records = number_of_records
     report.training_time = int(training_time)
     report.timestamp = int(time.time())

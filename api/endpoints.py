@@ -19,8 +19,9 @@ class Training(Resource):
     self.model = model
 
   def post(self) -> Response:
-    training_time, history = retrain(self.model , request.get_json())
-    save_report(self.repo, training_time=training_time, number_of_records=len(request.get_json()["x"]), history=history)
+    params = request.get_json()
+    training_time, history = retrain(self.model , params)
+    save_report(self.repo, correct_predictions=params["cp"], incorrect_predictions=params["ip"], training_time=training_time, number_of_records=len(request.get_json()["x"]), history=history)
     return "OK"
 
 
