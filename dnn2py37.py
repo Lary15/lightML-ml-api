@@ -1,6 +1,8 @@
 import tensorflow as tf
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+import time
 
 def plot_history(history):
   hist = pd.DataFrame(history.history)
@@ -18,29 +20,36 @@ def plot_history(history):
   plt.show()
 
 # Load the csv files
-train_df = pd.read_csv('../lightML-AI/train.csv')
-test_df = pd.read_csv('../lightML-AI/test.csv')
-val_df = pd.read_csv('../lightML-AI/val.csv')
+train_df = pd.read_csv('../lightML-AI/new_train.csv')
+test_df = pd.read_csv('../lightML-AI/new_test.csv')
+val_df = pd.read_csv('../lightML-AI/new_val.csv')
 
 train_y = train_df.pop('led_on')
 val_y = val_df.pop('led_on')
 test_y = test_df.pop('led_on')
 
-# Normalize
-for col in ["temp", "hum", "mic"]:
-    train_df[col] = (train_df[col]-train_df[col].min())/(train_df[col].max()-train_df[col].min())
-    val_df[col] = (val_df[col]-val_df[col].min())/(val_df[col].max()-val_df[col].min())
-    test_df[col] = (test_df[col]-test_df[col].min())/(test_df[col].max()-test_df[col].min())
+# Add a timestamp column
+os.environ['TZ'] = 'Brazil/East'
+time.tzset()
+
+train_df["weekday"] = train_df["timestamp"].apply(lambda a: int(time.strftime('%w', time.localtime(a))))
+val_df["weekday"] = val_df["timestamp"].apply(lambda a: int(time.strftime('%w', time.localtime(a))))
+test_df["weekday"] = test_df["timestamp"].apply(lambda a: int(time.strftime('%w', time.localtime(a))))
+
+train_df["timestamp"] = train_df["timestamp"].apply(lambda a: int(time.strftime('%H', time.localtime(a))))
+val_df["timestamp"] = val_df["timestamp"].apply(lambda a: int(time.strftime('%H', time.localtime(a))))
+test_df["timestamp"] = test_df["timestamp"].apply(lambda a: int(time.strftime('%H', time.localtime(a))))
 
 
 # Create the model
 model = tf.keras.Sequential([
-    tf.keras.layers.Dense(35, activation='relu'),
-    tf.keras.layers.Dense(28, activation='relu'),
-    tf.keras.layers.Dense(42, activation='relu'),
-    tf.keras.layers.Dense(49, activation='relu'),
-    tf.keras.layers.Dense(49, activation='relu'),
-    tf.keras.layers.Dense(21, activation='relu'),
+    tf.keras.layers.Dense(32, activation='relu'),
+    tf.keras.layers.Dense(48, activation='relu'),
+    tf.keras.layers.Dense(56, activation='relu'),
+    tf.keras.layers.Dense(48, activation='relu'),
+    tf.keras.layers.Dense(40, activation='relu'),
+    tf.keras.layers.Dense(40, activation='relu'),
+    tf.keras.layers.Dense(32, activation='relu'),
     tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
@@ -50,7 +59,7 @@ model.compile(
 )
 
 # Train the model
-history = model.fit(train_df.to_numpy(), train_y.to_numpy(), epochs=250, validation_data=(val_df.to_numpy(), val_y.to_numpy()))
+history = model.fit(train_df.to_numpy(), train_y.to_numpy(), epochs=200, validation_data=(val_df.to_numpy(), val_y.to_numpy()))
 plot_history(history)
 
 # Evaluate the model
