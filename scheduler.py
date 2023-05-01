@@ -16,7 +16,7 @@ os.environ['TZ'] = 'Brazil/East'
 time.tzset()
 
 def get_min_max():
-  df = pd.DataFrame(requests.get(f"{BANANA_API}:5000/peripherals", timeout=100).json())
+  df = pd.DataFrame(requests.get(f"{BANANA_API}:5000/peripherals", timeout=300).json())
   
   df = df[df["temp"]>=0]
   df = df[df["hum"]>=0]
