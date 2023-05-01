@@ -18,7 +18,7 @@ def retrain(model: Model, data: List[dict]):
     data_list = [list(dictionary.values()) for dictionary in data["x"]]
     target_list = data["y"]
 
-    history = model.fit(np.array(data_list), np.array(target_list), validation_split=0.10, epochs=10)
+    history = model.fit(np.array(data_list), np.array(target_list), validation_split=0.10, epochs=20)
     tf.saved_model.save(model, "execution_dnn")
 
     return time.time() - start, history.history
