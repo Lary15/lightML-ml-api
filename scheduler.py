@@ -44,15 +44,15 @@ def predict():
     print("[PREDICT] ", pred, flush=True)
 
     if pred[0][0] >= 0.5:
-      requests.get(f"{LAMP_API}/cm?cmnd=Power%20ON", timeout=10)
+      requests.get(f"{LAMP_API}/cm?cmnd=Power%20ON", timeout=60)
       print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', "LAMP ON", flush=True)
     else:
-      requests.get(f"{LAMP_API}/cm?cmnd=Power%20OFF", timeout=10)
+      requests.get(f"{LAMP_API}/cm?cmnd=Power%20OFF", timeout=60)
       print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', "LAMP OFF", flush=True)
   
     # Check prediction
     time.sleep(5*60)
-    res = requests.get(f"{LAMP_API}/cm?cmnd=Power", timeout=10).json()
+    res = requests.get(f"{LAMP_API}/cm?cmnd=Power", timeout=60).json()
 
     if res["POWER"] == "ON" and pred[0][0] >= 0.5 or \
       res["POWER"] == "OFF" and pred[0][0] < 0.5:
