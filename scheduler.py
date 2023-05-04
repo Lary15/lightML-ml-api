@@ -4,6 +4,7 @@ import os
 import datetime
 import requests
 import pandas as pd
+import threading
 
 BANANA_API="http://192.168.0.43"
 SENSORS_API="http://192.168.0.35"
@@ -14,6 +15,24 @@ INCORRECT_PRED = 0
 
 os.environ['TZ'] = 'Brazil/East'
 time.tzset()
+
+def check_prediction(sensor_state: dict, prediction: float):
+  global CORRECT_PRED, INCORRECT_PRED
+  try:
+    res = requests.get(f"{LAMP_API}/cm?cmnd=Power", timeout=60).json()
+
+    if res["POWER"] == "ON" and prediction >= 0.5 or \
+      res["POWER"] == "OFF" and prediction < 0.5:
+      CORRECT_PRED += 1
+    else:
+      # Save incorrect prediction
+      INCORRECT_PRED += 1
+      requests.post(f"{BANANA_API}:5000/peripherals", json=sensor_state, timeout=100)
+
+    print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', f"CP: {CORRECT_PRED} IP: {INCORRECT_PRED}", flush=True)
+  except Exception as e:
+    print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', e, flush=True)
+
 
 def predict():
   global CORRECT_PRED, INCORRECT_PRED
@@ -37,18 +56,8 @@ def predict():
       print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', "LAMP OFF", flush=True)
   
     # Check prediction
-    time.sleep(5*60)
-    res = requests.get(f"{LAMP_API}/cm?cmnd=Power", timeout=60).json()
+    threading.Timer(5*60, lambda: check_prediction(sensors_state, pred[0][0])).start()
 
-    if res["POWER"] == "ON" and pred[0][0] >= 0.5 or \
-      res["POWER"] == "OFF" and pred[0][0] < 0.5:
-      CORRECT_PRED += 1
-    else:
-      # Save incorrect prediction
-      INCORRECT_PRED += 1
-      requests.post(f"{BANANA_API}:5000/peripherals", json=sensors_state, timeout=100)
-
-    print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', f"CP: {CORRECT_PRED} IP: {INCORRECT_PRED}", flush=True)
   except Exception as e:
     print(f'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} [PREDICT] ', e, flush=True)
 
