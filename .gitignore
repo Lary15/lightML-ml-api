@@ -3,3 +3,5 @@ db.json
 */__pycache__
 .env
 .python-version
+/execution_dnn
+/execution_dnn_old
