@@ -15,25 +15,11 @@ INCORRECT_PRED = 0
 os.environ['TZ'] = 'Brazil/East'
 time.tzset()
 
-def get_min_max():
-  df = pd.DataFrame(requests.get(f"{BANANA_API}:5000/peripherals", timeout=300).json())
-  
-  df = df[df["temp"]>=0]
-  df = df[df["hum"]>=0]
-  df = df[df["mic"]>=0]
-  
-  return df["temp"].min(), df["temp"].max(), df["hum"].min(), df["hum"].max(), df["mic"].min(), df["mic"].max()
-
 def predict():
   global CORRECT_PRED, INCORRECT_PRED
   try:
     sensors_state = requests.get(f"{SENSORS_API}", timeout=10).json()
     sensors = sensors_state.copy()
-    temp_min, temp_max, hum_min, hum_max, mic_min, mic_max = get_min_max()
-
-    sensors["temp"] = (sensors["temp"]-min(temp_min, sensors["temp"]))/(max(sensors["temp"], temp_max)-min(temp_min, sensors["temp"]))
-    sensors["hum"] = (sensors["hum"]-min(hum_min, sensors["hum"]))/(max(sensors["hum"], hum_max)-min(hum_min, sensors["hum"]))
-    sensors["mic"] = (sensors["mic"]-min(mic_min, sensors["mic"]))/(max(sensors["mic"], mic_max)-min(mic_min, sensors["mic"]))
 
     sensors["timestamp"] = int(time.strftime('%H', time.localtime()))
     sensors["weekday"] = int(time.strftime('%w', time.localtime()))
@@ -92,14 +78,6 @@ def retrain():
     # Turn timestamp integer to category type based on hour
     data["weekday"] = data["timestamp"].apply(lambda x: int(time.strftime('%w', time.localtime(x))))
     data["timestamp"] = data["timestamp"].apply(lambda x: int(time.strftime('%H', time.localtime(x))))
-
-    # Normalize data for necessary fields
-    mins = {}
-    maxs = {}
-    mins["temp"], maxs["temp"], mins["hum"], maxs["hum"], mins["mic"], maxs["mic"] = get_min_max()
-
-    for col in ["temp", "hum", "mic"]:
-      data[col] = (data[col]-mins[col])/(maxs[col]-mins[col])
 
     res = requests.post(f"{BANANA_API}:3000/train", json={"x": data.to_dict('records'), "y": target.tolist(), "cp": CORRECT_PRED, "ip": INCORRECT_PRED})
 
