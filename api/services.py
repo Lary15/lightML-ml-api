@@ -1,5 +1,6 @@
 import time
 import os
+import shutil
 
 import numpy as np
 import tensorflow as tf
@@ -20,6 +21,8 @@ def retrain(model: Model, data: List[dict]):
     target_list = data["y"]
 
     if os.path.exists("execution_dnn"):
+        if os.path.exists("execution_dnn_old"):
+            shutil.rmtree("execution_dnn_old")
         os.rename("execution_dnn", "execution_dnn_old")
 
     history = model.fit(np.array(data_list), np.array(target_list), validation_split=0.1, epochs=5)
