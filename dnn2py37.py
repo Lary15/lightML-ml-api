@@ -43,13 +43,12 @@ test_df["timestamp"] = test_df["timestamp"].apply(lambda a: int(time.strftime('%
 
 # Create the model
 model = tf.keras.Sequential([
-    tf.keras.layers.Dense(32, activation='relu'),
     tf.keras.layers.Dense(48, activation='relu'),
+    tf.keras.layers.Dense(64, activation='relu'),
+    tf.keras.layers.Dense(64, activation='relu'),
+    tf.keras.layers.Dense(24, activation='relu'),
     tf.keras.layers.Dense(56, activation='relu'),
-    tf.keras.layers.Dense(48, activation='relu'),
-    tf.keras.layers.Dense(40, activation='relu'),
-    tf.keras.layers.Dense(40, activation='relu'),
-    tf.keras.layers.Dense(32, activation='relu'),
+    tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
