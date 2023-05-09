@@ -1,0 +1,1011 @@
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 59, 'temp': 24.18, 'hum': 67.53, 'timestamp': 10, 'weekday': 4}
+[PREDICT]  [[0.0]]
+2023-05-04 10:36:47 [PREDICT]  LAMP OFF
+2023-05-04 10:42:05 [PREDICT]  CP: 1 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 20, 'temp': 24.4, 'hum': 69.95, 'timestamp': 11, 'weekday': 4}
+[PREDICT]  [[0.045873671770095825]]
+2023-05-04 11:12:09 [PREDICT]  LAMP OFF
+2023-05-04 11:17:09 [PREDICT]  CP: 2 IP: 0
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.25, 'hum': 68.62, 'timestamp': 11, 'weekday': 4}
+[PREDICT]  [[0.017753561958670616]]
+2023-05-04 11:47:12 [PREDICT]  LAMP OFF
+2023-05-04 11:52:12 [PREDICT]  CP: 3 IP: 0
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.25, 'hum': 67.21, 'timestamp': 12, 'weekday': 4}
+[PREDICT]  [[0.007761821616441011]]
+2023-05-04 12:22:15 [PREDICT]  LAMP OFF
+2023-05-04 12:27:15 [PREDICT]  CP: 4 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 3, 'temp': 24.26, 'hum': 66.27, 'timestamp': 12, 'weekday': 4}
+[PREDICT]  [[0.09280405193567276]]
+2023-05-04 12:57:18 [PREDICT]  LAMP OFF
+2023-05-04 13:02:18 [PREDICT]  CP: 5 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.32, 'hum': 66.14, 'timestamp': 13, 'weekday': 4}
+[PREDICT]  [[0.010709145106375217]]
+2023-05-04 13:32:21 [PREDICT]  LAMP OFF
+2023-05-04 13:37:21 [PREDICT]  CP: 6 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 4, 'temp': 24.28, 'hum': 65.78, 'timestamp': 14, 'weekday': 4}
+[PREDICT]  [[0.07271843403577805]]
+2023-05-04 14:07:24 [PREDICT]  LAMP OFF
+2023-05-04 14:12:24 [PREDICT]  CP: 7 IP: 0
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 192, 'temp': 24.33, 'hum': 65.73, 'timestamp': 14, 'weekday': 4}
+[PREDICT]  [[0.0]]
+2023-05-04 14:42:27 [PREDICT]  LAMP OFF
+2023-05-04 14:47:27 [PREDICT]  CP: 8 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 5, 'temp': 24.38, 'hum': 65.35, 'timestamp': 15, 'weekday': 4}
+[PREDICT]  [[0.10943833738565445]]
+2023-05-04 15:17:30 [PREDICT]  LAMP OFF
+2023-05-04 15:22:30 [PREDICT]  CP: 9 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 25, 'temp': 24.44, 'hum': 65.8, 'timestamp': 15, 'weekday': 4}
+[PREDICT]  [[0.16412347555160522]]
+2023-05-04 15:52:32 [PREDICT]  LAMP OFF
+2023-05-04 15:57:33 [PREDICT]  CP: 10 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.4, 'hum': 65.97, 'timestamp': 16, 'weekday': 4}
+[PREDICT]  [[0.0013061241479590535]]
+2023-05-04 16:27:35 [PREDICT]  LAMP OFF
+2023-05-04 16:32:35 [PREDICT]  CP: 11 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.4, 'hum': 66.27, 'timestamp': 17, 'weekday': 4}
+[PREDICT]  [[0.0006467806524597108]]
+2023-05-04 17:02:38 [PREDICT]  LAMP OFF
+2023-05-04 17:07:38 [PREDICT]  CP: 12 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.41, 'hum': 66.28, 'timestamp': 17, 'weekday': 4}
+[PREDICT]  [[0.0006469322834163904]]
+2023-05-04 17:37:41 [PREDICT]  LAMP OFF
+2023-05-04 17:42:41 [PREDICT]  CP: 13 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 35, 'temp': 24.43, 'hum': 66.56, 'timestamp': 18, 'weekday': 4}
+[PREDICT]  [[0.8858500123023987]]
+2023-05-04 18:12:44 [PREDICT]  LAMP ON
+2023-05-04 18:17:44 [PREDICT]  CP: 14 IP: 0
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 19, 'temp': 24.44, 'hum': 67.0, 'timestamp': 18, 'weekday': 4}
+[PREDICT]  [[0.015344909392297268]]
+2023-05-04 18:47:47 [PREDICT]  LAMP OFF
+2023-05-04 18:52:52 [PREDICT]  CP: 14 IP: 1
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 439, 'temp': 24.55, 'hum': 68.44, 'timestamp': 19, 'weekday': 4}
+[PREDICT]  [[0.0]]
+2023-05-04 19:22:55 [PREDICT]  LAMP OFF
+2023-05-04 19:27:59 [PREDICT]  CP: 14 IP: 2
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.53, 'hum': 68.9, 'timestamp': 20, 'weekday': 4}
+[PREDICT]  [[4.970142981619574e-07]]
+2023-05-04 20:15:16 [PREDICT]  LAMP OFF
+2023-05-04 20:20:21 [PREDICT]  CP: 14 IP: 3
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 77, 'temp': 24.5, 'hum': 69.07, 'timestamp': 20, 'weekday': 4}
+[PREDICT]  [[0.0]]
+2023-05-04 20:45:18 [PREDICT]  LAMP OFF
+2023-05-04 20:50:23 [PREDICT]  CP: 14 IP: 4
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.5, 'hum': 69.17, 'timestamp': 21, 'weekday': 4}
+[PREDICT]  [[5.704245040760725e-07]]
+2023-05-04 21:15:21 [PREDICT]  LAMP OFF
+2023-05-04 21:20:26 [PREDICT]  CP: 14 IP: 5
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 4, 'temp': 24.62, 'hum': 69.93, 'timestamp': 21, 'weekday': 4}
+[PREDICT]  [[8.173997230187524e-06]]
+2023-05-04 21:45:24 [PREDICT]  LAMP OFF
+2023-05-04 21:50:25 [PREDICT]  CP: 15 IP: 5
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 3, 'temp': 24.65, 'hum': 70.29, 'timestamp': 22, 'weekday': 4}
+[PREDICT]  [[1.6507384543729131e-06]]
+2023-05-04 22:15:27 [PREDICT]  LAMP OFF
+2023-05-04 22:20:32 [PREDICT]  CP: 15 IP: 6
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 7, 'temp': 24.59, 'hum': 70.09, 'timestamp': 22, 'weekday': 4}
+[PREDICT]  [[0.00022064401127863675]]
+2023-05-04 22:45:30 [PREDICT]  LAMP OFF
+2023-05-04 22:50:35 [PREDICT]  CP: 15 IP: 7
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 4, 'temp': 24.53, 'hum': 69.97, 'timestamp': 23, 'weekday': 4}
+[PREDICT]  [[1.2391321888571838e-06]]
+2023-05-04 23:15:32 [PREDICT]  LAMP OFF
+2023-05-04 23:20:37 [PREDICT]  CP: 15 IP: 8
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 128, 'temp': 24.59, 'hum': 70.46, 'timestamp': 23, 'weekday': 4}
+[PREDICT]  [[0.0]]
+2023-05-04 23:45:35 [PREDICT]  LAMP OFF
+2023-05-04 23:50:40 [PREDICT]  CP: 15 IP: 9
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.59, 'hum': 70.35, 'timestamp': 0, 'weekday': 5}
+[PREDICT]  [[0.007327504456043243]]
+2023-05-05 00:15:38 [PREDICT]  LAMP OFF
+2023-05-05 00:20:43 [PREDICT]  CP: 15 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 4, 'temp': 24.56, 'hum': 70.03, 'timestamp': 0, 'weekday': 5}
+[PREDICT]  [[0.0018454899545758963]]
+2023-05-05 00:45:41 [PREDICT]  LAMP OFF
+2023-05-05 00:50:41 [PREDICT]  CP: 16 IP: 10
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 1, 'temp': 24.61, 'hum': 70.12, 'timestamp': 1, 'weekday': 5}
+[PREDICT]  [[0.028491448611021042]]
+2023-05-05 01:15:43 [PREDICT]  LAMP OFF
+2023-05-05 01:20:44 [PREDICT]  CP: 17 IP: 10
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.54, 'hum': 70.02, 'timestamp': 1, 'weekday': 5}
+[PREDICT]  [[0.028654919937253]]
+2023-05-05 01:45:48 [PREDICT]  LAMP OFF
+2023-05-05 01:50:48 [PREDICT]  CP: 18 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.48, 'hum': 69.96, 'timestamp': 2, 'weekday': 5}
+[PREDICT]  [[0.0331229530274868]]
+2023-05-05 02:15:51 [PREDICT]  LAMP OFF
+2023-05-05 02:20:51 [PREDICT]  CP: 19 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.47, 'hum': 69.83, 'timestamp': 2, 'weekday': 5}
+[PREDICT]  [[0.032903607934713364]]
+2023-05-05 02:45:53 [PREDICT]  LAMP OFF
+2023-05-05 02:50:54 [PREDICT]  CP: 20 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 1, 'temp': 24.41, 'hum': 69.83, 'timestamp': 3, 'weekday': 5}
+[PREDICT]  [[0.06275028735399246]]
+2023-05-05 03:15:56 [PREDICT]  LAMP OFF
+2023-05-05 03:20:56 [PREDICT]  CP: 21 IP: 10
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.39, 'hum': 69.85, 'timestamp': 3, 'weekday': 5}
+[PREDICT]  [[0.5565443634986877]]
+2023-05-05 03:45:59 [PREDICT]  LAMP ON
+2023-05-05 03:50:59 [PREDICT]  CP: 22 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.36, 'hum': 69.71, 'timestamp': 4, 'weekday': 5}
+[PREDICT]  [[0.5333621501922607]]
+2023-05-05 04:16:02 [PREDICT]  LAMP ON
+2023-05-05 04:21:02 [PREDICT]  CP: 23 IP: 10
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.38, 'hum': 69.73, 'timestamp': 4, 'weekday': 5}
+[PREDICT]  [[0.6500183939933777]]
+2023-05-05 04:46:04 [PREDICT]  LAMP ON
+2023-05-05 04:51:05 [PREDICT]  CP: 24 IP: 10
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.3, 'hum': 69.46, 'timestamp': 5, 'weekday': 5}
+[PREDICT]  [[0.6257294416427612]]
+2023-05-05 05:16:07 [PREDICT]  LAMP ON
+2023-05-05 05:21:07 [PREDICT]  CP: 25 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.16, 'hum': 69.39, 'timestamp': 5, 'weekday': 5}
+[PREDICT]  [[0.36128902435302734]]
+2023-05-05 05:46:10 [PREDICT]  LAMP OFF
+2023-05-05 05:51:10 [PREDICT]  CP: 26 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.12, 'hum': 69.25, 'timestamp': 6, 'weekday': 5}
+[PREDICT]  [[0.16447539627552032]]
+2023-05-05 06:16:12 [PREDICT]  LAMP OFF
+2023-05-05 06:21:12 [PREDICT]  CP: 27 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 14, 'temp': 24.21, 'hum': 69.16, 'timestamp': 6, 'weekday': 5}
+[PREDICT]  [[2.7898468601961213e-07]]
+2023-05-05 06:46:15 [PREDICT]  LAMP OFF
+2023-05-05 06:51:15 [PREDICT]  CP: 28 IP: 10
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.19, 'hum': 69.25, 'timestamp': 7, 'weekday': 5}
+[PREDICT]  [[0.31677019596099854]]
+2023-05-05 07:16:18 [PREDICT]  LAMP OFF
+2023-05-05 07:21:18 [PREDICT]  CP: 29 IP: 10
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.1, 'hum': 68.93, 'timestamp': 7, 'weekday': 5}
+[PREDICT]  [[0.3145492374897003]]
+2023-05-05 07:46:20 [PREDICT]  LAMP OFF
+2023-05-05 07:51:20 [PREDICT]  CP: 30 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 41, 'temp': 24.12, 'hum': 68.56, 'timestamp': 8, 'weekday': 5}
+[PREDICT]  [[0.0]]
+2023-05-05 08:16:23 [PREDICT]  LAMP OFF
+2023-05-05 08:21:23 [PREDICT]  CP: 31 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.14, 'hum': 68.22, 'timestamp': 8, 'weekday': 5}
+[PREDICT]  [[0.26724374294281006]]
+2023-05-05 08:46:26 [PREDICT]  LAMP OFF
+2023-05-05 08:51:26 [PREDICT]  CP: 32 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 2, 'temp': 24.18, 'hum': 67.91, 'timestamp': 9, 'weekday': 5}
+[PREDICT]  [[0.15550203621387482]]
+2023-05-05 09:16:29 [PREDICT]  LAMP OFF
+2023-05-05 09:21:29 [PREDICT]  CP: 33 IP: 10
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 4, 'temp': 24.28, 'hum': 67.57, 'timestamp': 9, 'weekday': 5}
+[PREDICT]  [[0.3863339424133301]]
+2023-05-05 09:46:31 [PREDICT]  LAMP OFF
+2023-05-05 09:51:31 [PREDICT]  CP: 34 IP: 10
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 437, 'temp': 24.35, 'hum': 67.8, 'timestamp': 10, 'weekday': 5}
+[PREDICT]  [[1.0]]
+2023-05-05 10:16:34 [PREDICT]  LAMP ON
+2023-05-05 10:21:39 [PREDICT]  CP: 34 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.4, 'hum': 67.79, 'timestamp': 10, 'weekday': 5}
+[PREDICT]  [[0.031979117542505264]]
+2023-05-05 10:46:37 [PREDICT]  LAMP OFF
+2023-05-05 10:51:37 [PREDICT]  CP: 35 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 550, 'temp': 24.48, 'hum': 67.4, 'timestamp': 11, 'weekday': 5}
+[PREDICT]  [[0.0]]
+2023-05-05 11:16:40 [PREDICT]  LAMP OFF
+2023-05-05 11:21:40 [PREDICT]  CP: 36 IP: 11
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.49, 'hum': 66.66, 'timestamp': 11, 'weekday': 5}
+[PREDICT]  [[0.0583500862121582]]
+2023-05-05 11:46:42 [PREDICT]  LAMP OFF
+2023-05-05 11:51:42 [PREDICT]  CP: 37 IP: 11
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 3, 'temp': 24.56, 'hum': 66.21, 'timestamp': 12, 'weekday': 5}
+[PREDICT]  [[0.07204704731702805]]
+2023-05-05 12:16:45 [PREDICT]  LAMP OFF
+2023-05-05 12:21:45 [PREDICT]  CP: 38 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 168, 'temp': 24.76, 'hum': 66.79, 'timestamp': 12, 'weekday': 5}
+[PREDICT]  [[0.0]]
+2023-05-05 12:46:48 [PREDICT]  LAMP OFF
+2023-05-05 12:51:48 [PREDICT]  CP: 39 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.74, 'hum': 66.0, 'timestamp': 13, 'weekday': 5}
+[PREDICT]  [[0.003915254957973957]]
+2023-05-05 13:16:50 [PREDICT]  LAMP OFF
+2023-05-05 13:21:50 [PREDICT]  CP: 40 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.67, 'hum': 64.73, 'timestamp': 13, 'weekday': 5}
+[PREDICT]  [[0.003963327966630459]]
+2023-05-05 13:46:55 [PREDICT]  LAMP OFF
+2023-05-05 13:51:56 [PREDICT]  CP: 41 IP: 11
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.74, 'hum': 64.33, 'timestamp': 14, 'weekday': 5}
+[PREDICT]  [[0.005973287392407656]]
+2023-05-05 14:16:59 [PREDICT]  LAMP OFF
+2023-05-05 14:22:01 [PREDICT]  CP: 42 IP: 11
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.74, 'hum': 63.58, 'timestamp': 14, 'weekday': 5}
+[PREDICT]  [[0.006016944535076618]]
+2023-05-05 14:47:01 [PREDICT]  LAMP OFF
+2023-05-05 14:52:02 [PREDICT]  CP: 43 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 4, 'temp': 24.72, 'hum': 62.61, 'timestamp': 15, 'weekday': 5}
+[PREDICT]  [[0.004702956881374121]]
+2023-05-05 15:17:04 [PREDICT]  LAMP OFF
+2023-05-05 15:22:04 [PREDICT]  CP: 44 IP: 11
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 10, 'temp': 24.79, 'hum': 62.49, 'timestamp': 15, 'weekday': 5}
+[PREDICT]  [[0.0595414824783802]]
+2023-05-05 15:47:07 [PREDICT]  LAMP OFF
+2023-05-05 15:52:07 [PREDICT]  CP: 45 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 6, 'temp': 24.79, 'hum': 62.54, 'timestamp': 16, 'weekday': 5}
+[PREDICT]  [[0.005063429940491915]]
+2023-05-05 16:17:10 [PREDICT]  LAMP OFF
+2023-05-05 16:22:10 [PREDICT]  CP: 46 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.78, 'hum': 61.88, 'timestamp': 16, 'weekday': 5}
+[PREDICT]  [[0.000296191981760785]]
+2023-05-05 16:47:12 [PREDICT]  LAMP OFF
+2023-05-05 16:52:12 [PREDICT]  CP: 47 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 4, 'temp': 24.76, 'hum': 62.27, 'timestamp': 17, 'weekday': 5}
+[PREDICT]  [[0.000831776182167232]]
+2023-05-05 17:17:15 [PREDICT]  LAMP OFF
+2023-05-05 17:22:15 [PREDICT]  CP: 48 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.78, 'hum': 62.71, 'timestamp': 17, 'weekday': 5}
+[PREDICT]  [[4.732491561298957e-06]]
+2023-05-05 17:47:17 [PREDICT]  LAMP OFF
+2023-05-05 17:52:17 [PREDICT]  CP: 49 IP: 11
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.82, 'hum': 63.65, 'timestamp': 18, 'weekday': 5}
+[PREDICT]  [[7.37401251171832e-06]]
+2023-05-05 18:17:20 [PREDICT]  LAMP OFF
+2023-05-05 18:22:20 [PREDICT]  CP: 50 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.8, 'hum': 64.64, 'timestamp': 18, 'weekday': 5}
+[PREDICT]  [[3.257729986216873e-06]]
+2023-05-05 18:47:23 [PREDICT]  LAMP OFF
+2023-05-05 18:52:23 [PREDICT]  CP: 51 IP: 11
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.78, 'hum': 65.55, 'timestamp': 19, 'weekday': 5}
+[PREDICT]  [[3.3703854569466785e-06]]
+2023-05-05 19:17:26 [PREDICT]  LAMP OFF
+2023-05-05 19:22:26 [PREDICT]  CP: 52 IP: 11
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 9, 'temp': 24.8, 'hum': 66.29, 'timestamp': 19, 'weekday': 5}
+[PREDICT]  [[0.00014583530719392002]]
+2023-05-05 19:47:28 [PREDICT]  LAMP OFF
+2023-05-05 19:52:29 [PREDICT]  CP: 53 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 28, 'temp': 24.83, 'hum': 66.86, 'timestamp': 20, 'weekday': 5}
+[PREDICT]  [[0.9339383244514465]]
+2023-05-05 20:17:31 [PREDICT]  LAMP ON
+2023-05-05 20:22:31 [PREDICT]  CP: 54 IP: 11
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.84, 'hum': 67.39, 'timestamp': 20, 'weekday': 5}
+[PREDICT]  [[2.657762934177299e-07]]
+2023-05-05 20:47:34 [PREDICT]  LAMP OFF
+2023-05-05 20:52:34 [PREDICT]  CP: 55 IP: 11
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.88, 'hum': 67.97, 'timestamp': 21, 'weekday': 5}
+[PREDICT]  [[8.926601822167868e-07]]
+2023-05-05 21:17:37 [PREDICT]  LAMP OFF
+2023-05-05 21:22:41 [PREDICT]  CP: 55 IP: 12
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 4096, 'temp': 24.86, 'hum': 67.62, 'timestamp': 21, 'weekday': 5}
+[PREDICT]  [[0.0]]
+2023-05-05 21:47:39 [PREDICT]  LAMP OFF
+2023-05-05 21:52:44 [PREDICT]  CP: 55 IP: 13
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 1907, 'temp': 24.79, 'hum': 67.47, 'timestamp': 22, 'weekday': 5}
+[PREDICT]  [[0.0]]
+2023-05-05 22:17:42 [PREDICT]  LAMP OFF
+2023-05-05 22:22:47 [PREDICT]  CP: 55 IP: 14
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 930, 'temp': 24.87, 'hum': 67.84, 'timestamp': 22, 'weekday': 5}
+[PREDICT]  [[0.0]]
+2023-05-05 22:47:45 [PREDICT]  LAMP OFF
+2023-05-05 22:52:45 [PREDICT]  CP: 56 IP: 14
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 14, 'temp': 24.74, 'hum': 67.41, 'timestamp': 23, 'weekday': 5}
+[PREDICT]  [[0.014085608534514904]]
+2023-05-05 23:17:48 [PREDICT]  LAMP OFF
+2023-05-05 23:22:48 [PREDICT]  CP: 57 IP: 14
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2122, 'temp': 24.76, 'hum': 67.35, 'timestamp': 23, 'weekday': 5}
+[PREDICT]  [[0.0]]
+2023-05-05 23:47:50 [PREDICT]  LAMP OFF
+2023-05-05 23:52:56 [PREDICT]  CP: 57 IP: 15
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 4, 'temp': 24.76, 'hum': 67.13, 'timestamp': 0, 'weekday': 6}
+[PREDICT]  [[0.0004243735456839204]]
+2023-05-06 00:18:06 [PREDICT]  LAMP OFF
+2023-05-06 00:23:15 [PREDICT]  CP: 57 IP: 16
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.74, 'hum': 66.61, 'timestamp': 0, 'weekday': 6}
+[PREDICT]  [[0.011828599497675896]]
+2023-05-06 00:48:08 [PREDICT]  LAMP OFF
+2023-05-06 00:53:14 [PREDICT]  CP: 57 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.68, 'hum': 66.23, 'timestamp': 1, 'weekday': 6}
+[PREDICT]  [[0.005173986312001944]]
+2023-05-06 01:18:11 [PREDICT]  LAMP OFF
+2023-05-06 01:23:12 [PREDICT]  CP: 58 IP: 17
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 3, 'temp': 24.62, 'hum': 66.02, 'timestamp': 1, 'weekday': 6}
+[PREDICT]  [[0.006058736704289913]]
+2023-05-06 01:48:14 [PREDICT]  LAMP OFF
+2023-05-06 01:53:14 [PREDICT]  CP: 59 IP: 17
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.6, 'hum': 65.72, 'timestamp': 2, 'weekday': 6}
+[PREDICT]  [[0.0364663191139698]]
+2023-05-06 02:18:17 [PREDICT]  LAMP OFF
+2023-05-06 02:23:17 [PREDICT]  CP: 60 IP: 17
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 7, 'temp': 24.59, 'hum': 65.44, 'timestamp': 2, 'weekday': 6}
+[PREDICT]  [[0.0008982931612990797]]
+2023-05-06 02:48:19 [PREDICT]  LAMP OFF
+2023-05-06 02:53:19 [PREDICT]  CP: 61 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.5, 'hum': 65.06, 'timestamp': 3, 'weekday': 6}
+[PREDICT]  [[0.043775901198387146]]
+2023-05-06 03:18:22 [PREDICT]  LAMP OFF
+2023-05-06 03:23:22 [PREDICT]  CP: 62 IP: 17
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.49, 'hum': 64.85, 'timestamp': 3, 'weekday': 6}
+[PREDICT]  [[0.16292399168014526]]
+2023-05-06 03:48:25 [PREDICT]  LAMP OFF
+2023-05-06 03:53:25 [PREDICT]  CP: 63 IP: 17
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 3, 'temp': 24.44, 'hum': 64.65, 'timestamp': 4, 'weekday': 6}
+[PREDICT]  [[0.2674352824687958]]
+2023-05-06 04:18:27 [PREDICT]  LAMP OFF
+2023-05-06 04:23:28 [PREDICT]  CP: 64 IP: 17
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 7, 'temp': 24.42, 'hum': 64.47, 'timestamp': 4, 'weekday': 6}
+[PREDICT]  [[0.0002379944344284013]]
+2023-05-06 04:48:30 [PREDICT]  LAMP OFF
+2023-05-06 04:53:31 [PREDICT]  CP: 65 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 1, 'temp': 24.42, 'hum': 64.32, 'timestamp': 5, 'weekday': 6}
+[PREDICT]  [[0.05679605156183243]]
+2023-05-06 05:18:33 [PREDICT]  LAMP OFF
+2023-05-06 05:23:33 [PREDICT]  CP: 66 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.4, 'hum': 64.05, 'timestamp': 5, 'weekday': 6}
+[PREDICT]  [[0.05582232400774956]]
+2023-05-06 05:48:36 [PREDICT]  LAMP OFF
+2023-05-06 05:53:36 [PREDICT]  CP: 67 IP: 17
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.38, 'hum': 64.07, 'timestamp': 6, 'weekday': 6}
+[PREDICT]  [[0.213566854596138]]
+2023-05-06 06:18:38 [PREDICT]  LAMP OFF
+2023-05-06 06:23:39 [PREDICT]  CP: 68 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 7, 'temp': 24.37, 'hum': 64.14, 'timestamp': 6, 'weekday': 6}
+[PREDICT]  [[1.1236952559556812e-06]]
+2023-05-06 06:48:41 [PREDICT]  LAMP OFF
+2023-05-06 06:53:41 [PREDICT]  CP: 69 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.4, 'hum': 64.16, 'timestamp': 7, 'weekday': 6}
+[PREDICT]  [[0.0014548066537827253]]
+2023-05-06 07:18:44 [PREDICT]  LAMP OFF
+2023-05-06 07:23:44 [PREDICT]  CP: 70 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.41, 'hum': 63.92, 'timestamp': 7, 'weekday': 6}
+[PREDICT]  [[0.0015301416860893369]]
+2023-05-06 07:48:47 [PREDICT]  LAMP OFF
+2023-05-06 07:53:47 [PREDICT]  CP: 71 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.37, 'hum': 63.75, 'timestamp': 8, 'weekday': 6}
+[PREDICT]  [[0.007465680595487356]]
+2023-05-06 08:18:50 [PREDICT]  LAMP OFF
+2023-05-06 08:23:50 [PREDICT]  CP: 72 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 2, 'temp': 24.5, 'hum': 63.45, 'timestamp': 8, 'weekday': 6}
+[PREDICT]  [[0.0013666508020833135]]
+2023-05-06 08:48:53 [PREDICT]  LAMP OFF
+2023-05-06 08:53:53 [PREDICT]  CP: 73 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 22, 'temp': 24.52, 'hum': 62.38, 'timestamp': 9, 'weekday': 6}
+[PREDICT]  [[0.0]]
+2023-05-06 09:18:56 [PREDICT]  LAMP OFF
+2023-05-06 09:23:56 [PREDICT]  CP: 74 IP: 17
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.49, 'hum': 62.75, 'timestamp': 9, 'weekday': 6}
+[PREDICT]  [[0.04968508705496788]]
+2023-05-06 09:48:58 [PREDICT]  LAMP OFF
+2023-05-06 09:53:59 [PREDICT]  CP: 75 IP: 17
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 77, 'temp': 24.64, 'hum': 63.03, 'timestamp': 10, 'weekday': 6}
+[PREDICT]  [[0.0]]
+2023-05-06 10:19:01 [PREDICT]  LAMP OFF
+2023-05-06 10:24:01 [PREDICT]  CP: 76 IP: 17
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 18, 'temp': 24.72, 'hum': 63.32, 'timestamp': 10, 'weekday': 6}
+[PREDICT]  [[0.0]]
+2023-05-06 10:49:04 [PREDICT]  LAMP OFF
+2023-05-06 10:54:10 [PREDICT]  CP: 76 IP: 18
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.81, 'hum': 63.4, 'timestamp': 11, 'weekday': 6}
+[PREDICT]  [[0.009942284785211086]]
+2023-05-06 11:19:07 [PREDICT]  LAMP OFF
+2023-05-06 11:24:07 [PREDICT]  CP: 77 IP: 18
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.82, 'hum': 62.84, 'timestamp': 11, 'weekday': 6}
+[PREDICT]  [[0.010086581110954285]]
+2023-05-06 11:49:10 [PREDICT]  LAMP OFF
+2023-05-06 11:54:10 [PREDICT]  CP: 78 IP: 18
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 28, 'temp': 24.76, 'hum': 62.22, 'timestamp': 12, 'weekday': 6}
+[PREDICT]  [[0.0]]
+2023-05-06 12:19:13 [PREDICT]  LAMP OFF
+2023-05-06 12:24:13 [PREDICT]  CP: 79 IP: 18
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.94, 'hum': 62.07, 'timestamp': 12, 'weekday': 6}
+[PREDICT]  [[0.014156932011246681]]
+2023-05-06 12:49:15 [PREDICT]  LAMP OFF
+2023-05-06 12:54:15 [PREDICT]  CP: 80 IP: 18
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 8, 'temp': 24.91, 'hum': 61.09, 'timestamp': 13, 'weekday': 6}
+[PREDICT]  [[0.0663456842303276]]
+2023-05-06 13:19:18 [PREDICT]  LAMP OFF
+2023-05-06 13:24:18 [PREDICT]  CP: 81 IP: 18
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 1, 'temp': 24.95, 'hum': 60.63, 'timestamp': 13, 'weekday': 6}
+[PREDICT]  [[0.006862006615847349]]
+2023-05-06 13:49:21 [PREDICT]  LAMP OFF
+2023-05-06 13:54:21 [PREDICT]  CP: 82 IP: 18
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 5, 'temp': 24.91, 'hum': 60.73, 'timestamp': 14, 'weekday': 6}
+[PREDICT]  [[0.027391932904720306]]
+2023-05-06 14:19:24 [PREDICT]  LAMP OFF
+2023-05-06 14:24:24 [PREDICT]  CP: 83 IP: 18
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 16, 'temp': 25.01, 'hum': 60.78, 'timestamp': 14, 'weekday': 6}
+[PREDICT]  [[0.3305613100528717]]
+2023-05-06 14:49:26 [PREDICT]  LAMP OFF
+2023-05-06 14:54:26 [PREDICT]  CP: 84 IP: 18
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 3, 'temp': 25.12, 'hum': 61.35, 'timestamp': 15, 'weekday': 6}
+[PREDICT]  [[0.00513397715985775]]
+2023-05-06 15:19:29 [PREDICT]  LAMP OFF
+2023-05-06 15:24:30 [PREDICT]  CP: 85 IP: 18
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 25.1, 'hum': 62.19, 'timestamp': 15, 'weekday': 6}
+[PREDICT]  [[0.004400403238832951]]
+2023-05-06 15:49:32 [PREDICT]  LAMP OFF
+2023-05-06 15:54:33 [PREDICT]  CP: 86 IP: 18
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 25.15, 'hum': 62.93, 'timestamp': 16, 'weekday': 6}
+[PREDICT]  [[0.0018628556281328201]]
+2023-05-06 16:19:35 [PREDICT]  LAMP OFF
+2023-05-06 16:24:35 [PREDICT]  CP: 87 IP: 18
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 2, 'temp': 25.07, 'hum': 62.06, 'timestamp': 16, 'weekday': 6}
+[PREDICT]  [[0.01338181458413601]]
+2023-05-06 16:49:38 [PREDICT]  LAMP OFF
+2023-05-06 16:54:43 [PREDICT]  CP: 87 IP: 19
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 11, 'temp': 25.08, 'hum': 62.14, 'timestamp': 17, 'weekday': 6}
+[PREDICT]  [[0.011935350485146046]]
+2023-05-06 17:19:41 [PREDICT]  LAMP OFF
+2023-05-06 17:24:46 [PREDICT]  CP: 87 IP: 20
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 17, 'temp': 25.14, 'hum': 62.47, 'timestamp': 17, 'weekday': 6}
+[PREDICT]  [[0.0046440851874649525]]
+2023-05-06 17:49:43 [PREDICT]  LAMP OFF
+2023-05-06 17:54:53 [PREDICT]  CP: 87 IP: 21
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 72, 'temp': 25.06, 'hum': 62.29, 'timestamp': 18, 'weekday': 6}
+[PREDICT]  [[0.0]]
+2023-05-06 18:19:46 [PREDICT]  LAMP OFF
+2023-05-06 18:24:48 [PREDICT]  CP: 87 IP: 22
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 29, 'temp': 25.18, 'hum': 63.01, 'timestamp': 18, 'weekday': 6}
+[PREDICT]  [[0.7351647615432739]]
+2023-05-06 18:49:49 [PREDICT]  LAMP ON
+2023-05-06 18:54:49 [PREDICT]  CP: 88 IP: 22
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 737, 'temp': 25.19, 'hum': 63.45, 'timestamp': 19, 'weekday': 6}
+[PREDICT]  [[0.0]]
+2023-05-06 19:19:51 [PREDICT]  LAMP OFF
+2023-05-06 19:24:53 [PREDICT]  CP: 88 IP: 23
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 22, 'temp': 25.08, 'hum': 63.09, 'timestamp': 19, 'weekday': 6}
+[PREDICT]  [[0.04934662953019142]]
+2023-05-06 19:49:54 [PREDICT]  LAMP OFF
+2023-05-06 19:54:56 [PREDICT]  CP: 88 IP: 24
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 30, 'temp': 25.05, 'hum': 62.4, 'timestamp': 20, 'weekday': 6}
+[PREDICT]  [[0.9205030798912048]]
+2023-05-06 20:19:58 [PREDICT]  LAMP ON
+2023-05-06 20:24:58 [PREDICT]  CP: 89 IP: 24
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 197, 'temp': 25.05, 'hum': 62.03, 'timestamp': 20, 'weekday': 6}
+[PREDICT]  [[0.0]]
+2023-05-06 20:50:00 [PREDICT]  LAMP OFF
+2023-05-06 20:55:02 [PREDICT]  CP: 89 IP: 25
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 418, 'temp': 25.04, 'hum': 61.72, 'timestamp': 21, 'weekday': 6}
+[PREDICT]  [[0.0]]
+2023-05-06 21:20:05 [PREDICT]  LAMP OFF
+2023-05-06 21:25:07 [PREDICT]  CP: 89 IP: 26
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 41, 'temp': 25.0, 'hum': 61.58, 'timestamp': 21, 'weekday': 6}
+[PREDICT]  [[0.9487793445587158]]
+2023-05-06 21:50:08 [PREDICT]  LAMP ON
+2023-05-06 21:55:08 [PREDICT]  CP: 90 IP: 26
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 60, 'temp': 25.1, 'hum': 62.26, 'timestamp': 22, 'weekday': 6}
+[PREDICT]  [[0.0]]
+2023-05-06 22:20:10 [PREDICT]  LAMP OFF
+2023-05-06 22:25:12 [PREDICT]  CP: 90 IP: 27
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 25.11, 'hum': 62.69, 'timestamp': 22, 'weekday': 6}
+[PREDICT]  [[1.271675813541151e-07]]
+2023-05-06 22:50:13 [PREDICT]  LAMP OFF
+2023-05-06 22:55:15 [PREDICT]  CP: 90 IP: 28
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 8, 'temp': 24.96, 'hum': 62.73, 'timestamp': 23, 'weekday': 6}
+[PREDICT]  [[0.00016746309120208025]]
+2023-05-06 23:20:16 [PREDICT]  LAMP OFF
+2023-05-06 23:25:18 [PREDICT]  CP: 90 IP: 29
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.96, 'hum': 63.01, 'timestamp': 23, 'weekday': 6}
+[PREDICT]  [[2.6819614618034393e-07]]
+2023-05-06 23:50:18 [PREDICT]  LAMP OFF
+2023-05-06 23:55:18 [PREDICT]  CP: 91 IP: 29
+2023-05-07 00:15:02 [TRAIN]  If using all scalar values, you must pass an index
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 1, 'temp': 24.86, 'hum': 63.12, 'timestamp': 0, 'weekday': 0}
+[PREDICT]  [[0.013706047087907791]]
+2023-05-07 00:20:23 [PREDICT]  LAMP OFF
+2023-05-07 00:25:23 [PREDICT]  CP: 92 IP: 29
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.84, 'hum': 63.53, 'timestamp': 0, 'weekday': 0}
+[PREDICT]  [[0.013690288178622723]]
+2023-05-07 00:50:26 [PREDICT]  LAMP OFF
+2023-05-07 00:55:26 [PREDICT]  CP: 93 IP: 29
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.78, 'hum': 63.93, 'timestamp': 1, 'weekday': 0}
+[PREDICT]  [[0.011890559457242489]]
+2023-05-07 01:20:29 [PREDICT]  LAMP OFF
+2023-05-07 01:25:29 [PREDICT]  CP: 94 IP: 29
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.74, 'hum': 64.2, 'timestamp': 1, 'weekday': 0}
+[PREDICT]  [[0.016163554042577744]]
+2023-05-07 01:50:31 [PREDICT]  LAMP OFF
+2023-05-07 01:55:31 [PREDICT]  CP: 95 IP: 29
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.66, 'hum': 64.16, 'timestamp': 2, 'weekday': 0}
+[PREDICT]  [[0.17776550352573395]]
+2023-05-07 02:20:34 [PREDICT]  LAMP OFF
+2023-05-07 02:25:34 [PREDICT]  CP: 96 IP: 29
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.61, 'hum': 64.23, 'timestamp': 2, 'weekday': 0}
+[PREDICT]  [[0.1835649311542511]]
+2023-05-07 02:50:37 [PREDICT]  LAMP OFF
+2023-05-07 02:55:37 [PREDICT]  CP: 97 IP: 29
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 1, 'temp': 24.58, 'hum': 64.22, 'timestamp': 3, 'weekday': 0}
+[PREDICT]  [[0.37007081508636475]]
+2023-05-07 03:20:40 [PREDICT]  LAMP OFF
+2023-05-07 03:25:40 [PREDICT]  CP: 98 IP: 29
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.56, 'hum': 64.26, 'timestamp': 3, 'weekday': 0}
+[PREDICT]  [[0.5009666681289673]]
+2023-05-07 03:50:42 [PREDICT]  LAMP ON
+2023-05-07 03:55:42 [PREDICT]  CP: 99 IP: 29
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.45, 'hum': 64.02, 'timestamp': 4, 'weekday': 0}
+[PREDICT]  [[0.6224802732467651]]
+2023-05-07 04:20:45 [PREDICT]  LAMP ON
+2023-05-07 04:25:45 [PREDICT]  CP: 100 IP: 29
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 11, 'temp': 24.49, 'hum': 63.83, 'timestamp': 4, 'weekday': 0}
+[PREDICT]  [[0.04533097892999649]]
+2023-05-07 04:50:48 [PREDICT]  LAMP OFF
+2023-05-07 04:55:48 [PREDICT]  CP: 101 IP: 29
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.41, 'hum': 63.72, 'timestamp': 5, 'weekday': 0}
+[PREDICT]  [[0.6935058832168579]]
+2023-05-07 05:20:50 [PREDICT]  LAMP ON
+2023-05-07 05:25:55 [PREDICT]  CP: 101 IP: 30
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.37, 'hum': 63.65, 'timestamp': 5, 'weekday': 0}
+[PREDICT]  [[0.693203866481781]]
+2023-05-07 05:50:53 [PREDICT]  LAMP ON
+2023-05-07 05:55:58 [PREDICT]  CP: 101 IP: 31
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.34, 'hum': 63.56, 'timestamp': 6, 'weekday': 0}
+[PREDICT]  [[0.706810474395752]]
+2023-05-07 06:20:56 [PREDICT]  LAMP ON
+2023-05-07 06:26:01 [PREDICT]  CP: 101 IP: 32
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 5, 'temp': 24.26, 'hum': 63.4, 'timestamp': 6, 'weekday': 0}
+[PREDICT]  [[0.045353930443525314]]
+2023-05-07 06:50:59 [PREDICT]  LAMP OFF
+2023-05-07 06:55:59 [PREDICT]  CP: 102 IP: 32
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.31, 'hum': 63.96, 'timestamp': 7, 'weekday': 0}
+[PREDICT]  [[0.24614553153514862]]
+2023-05-07 07:21:01 [PREDICT]  LAMP OFF
+2023-05-07 07:26:02 [PREDICT]  CP: 103 IP: 32
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.3, 'hum': 64.09, 'timestamp': 7, 'weekday': 0}
+[PREDICT]  [[0.24671314656734467]]
+2023-05-07 07:51:04 [PREDICT]  LAMP OFF
+2023-05-07 07:56:04 [PREDICT]  CP: 104 IP: 32
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 2, 'temp': 24.32, 'hum': 64.0, 'timestamp': 8, 'weekday': 0}
+[PREDICT]  [[0.6276850700378418]]
+2023-05-07 08:21:07 [PREDICT]  LAMP ON
+2023-05-07 08:26:12 [PREDICT]  CP: 104 IP: 33
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.34, 'hum': 63.81, 'timestamp': 8, 'weekday': 0}
+[PREDICT]  [[0.40749454498291016]]
+2023-05-07 08:51:10 [PREDICT]  LAMP OFF
+2023-05-07 08:56:10 [PREDICT]  CP: 105 IP: 33
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.38, 'hum': 63.8, 'timestamp': 9, 'weekday': 0}
+[PREDICT]  [[0.5367064476013184]]
+2023-05-07 09:21:12 [PREDICT]  LAMP ON
+2023-05-07 09:26:18 [PREDICT]  CP: 105 IP: 34
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 1, 'temp': 24.37, 'hum': 63.52, 'timestamp': 9, 'weekday': 0}
+[PREDICT]  [[0.34479135274887085]]
+2023-05-07 09:51:15 [PREDICT]  LAMP OFF
+2023-05-07 09:56:15 [PREDICT]  CP: 106 IP: 34
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.41, 'hum': 63.13, 'timestamp': 10, 'weekday': 0}
+[PREDICT]  [[0.27195584774017334]]
+2023-05-07 10:21:18 [PREDICT]  LAMP OFF
+2023-05-07 10:26:18 [PREDICT]  CP: 107 IP: 34
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.46, 'hum': 62.8, 'timestamp': 10, 'weekday': 0}
+[PREDICT]  [[0.43526092171669006]]
+2023-05-07 10:51:21 [PREDICT]  LAMP OFF
+2023-05-07 10:56:21 [PREDICT]  CP: 108 IP: 34
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 11, 'temp': 24.48, 'hum': 62.04, 'timestamp': 11, 'weekday': 0}
+[PREDICT]  [[0.6846659779548645]]
+2023-05-07 11:21:23 [PREDICT]  LAMP ON
+2023-05-07 11:26:29 [PREDICT]  CP: 108 IP: 35
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.5, 'hum': 61.58, 'timestamp': 11, 'weekday': 0}
+[PREDICT]  [[0.28966304659843445]]
+2023-05-07 11:51:26 [PREDICT]  LAMP OFF
+2023-05-07 11:56:26 [PREDICT]  CP: 109 IP: 35
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 11, 'temp': 24.53, 'hum': 60.97, 'timestamp': 12, 'weekday': 0}
+[PREDICT]  [[0.6107808351516724]]
+2023-05-07 12:21:29 [PREDICT]  LAMP ON
+2023-05-07 12:26:34 [PREDICT]  CP: 109 IP: 36
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 1, 'temp': 24.7, 'hum': 61.54, 'timestamp': 12, 'weekday': 0}
+[PREDICT]  [[0.2227524369955063]]
+2023-05-07 12:51:31 [PREDICT]  LAMP OFF
+2023-05-07 12:56:32 [PREDICT]  CP: 110 IP: 36
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 10, 'temp': 24.82, 'hum': 62.71, 'timestamp': 13, 'weekday': 0}
+[PREDICT]  [[0.5334876179695129]]
+2023-05-07 13:21:34 [PREDICT]  LAMP ON
+2023-05-07 13:26:39 [PREDICT]  CP: 110 IP: 37
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 16, 'temp': 24.7, 'hum': 62.11, 'timestamp': 13, 'weekday': 0}
+[PREDICT]  [[0.2974516749382019]]
+2023-05-07 13:51:37 [PREDICT]  LAMP OFF
+2023-05-07 13:56:37 [PREDICT]  CP: 111 IP: 37
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.83, 'hum': 60.84, 'timestamp': 14, 'weekday': 0}
+[PREDICT]  [[0.30819931626319885]]
+2023-05-07 14:45:27 [PREDICT]  LAMP OFF
+2023-05-07 14:50:27 [PREDICT]  CP: 112 IP: 37
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.89, 'hum': 60.77, 'timestamp': 15, 'weekday': 0}
+[PREDICT]  [[0.6220733523368835]]
+2023-05-07 15:15:30 [PREDICT]  LAMP ON
+2023-05-07 15:20:30 [PREDICT]  CP: 113 IP: 37
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 50, 'temp': 24.84, 'hum': 59.94, 'timestamp': 15, 'weekday': 0}
+[PREDICT]  [[0.0]]
+2023-05-07 15:45:32 [PREDICT]  LAMP OFF
+2023-05-07 15:50:32 [PREDICT]  CP: 114 IP: 37
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 55, 'temp': 24.76, 'hum': 58.75, 'timestamp': 16, 'weekday': 0}
+[PREDICT]  [[0.0]]
+2023-05-07 16:15:35 [PREDICT]  LAMP OFF
+2023-05-07 16:20:40 [PREDICT]  CP: 114 IP: 38
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 12, 'temp': 24.82, 'hum': 57.88, 'timestamp': 16, 'weekday': 0}
+[PREDICT]  [[0.40483927726745605]]
+2023-05-07 16:45:38 [PREDICT]  LAMP OFF
+2023-05-07 16:50:39 [PREDICT]  CP: 115 IP: 38
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.78, 'hum': 58.45, 'timestamp': 17, 'weekday': 0}
+[PREDICT]  [[0.8551182150840759]]
+2023-05-07 17:15:40 [PREDICT]  LAMP ON
+2023-05-07 17:20:40 [PREDICT]  CP: 116 IP: 38
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.81, 'hum': 59.14, 'timestamp': 17, 'weekday': 0}
+[PREDICT]  [[0.01610272377729416]]
+2023-05-07 17:45:43 [PREDICT]  LAMP OFF
+2023-05-07 17:50:48 [PREDICT]  CP: 116 IP: 39
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.73, 'hum': 59.75, 'timestamp': 18, 'weekday': 0}
+[PREDICT]  [[0.026125654578208923]]
+2023-05-07 18:15:46 [PREDICT]  LAMP OFF
+2023-05-07 18:20:51 [PREDICT]  CP: 116 IP: 40
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.66, 'hum': 60.08, 'timestamp': 18, 'weekday': 0}
+[PREDICT]  [[0.023228738456964493]]
+2023-05-07 18:45:48 [PREDICT]  LAMP OFF
+2023-05-07 18:50:53 [PREDICT]  CP: 116 IP: 41
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.62, 'hum': 60.01, 'timestamp': 19, 'weekday': 0}
+[PREDICT]  [[0.04498143494129181]]
+2023-05-07 19:15:51 [PREDICT]  LAMP OFF
+2023-05-07 19:20:58 [PREDICT]  CP: 116 IP: 42
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 92, 'temp': 24.7, 'hum': 60.9, 'timestamp': 19, 'weekday': 0}
+[PREDICT]  [[0.0]]
+2023-05-07 19:45:54 [PREDICT]  LAMP OFF
+2023-05-07 19:50:59 [PREDICT]  CP: 116 IP: 43
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.75, 'hum': 61.76, 'timestamp': 20, 'weekday': 0}
+[PREDICT]  [[0.6656048893928528]]
+2023-05-07 20:15:56 [PREDICT]  LAMP ON
+2023-05-07 20:20:57 [PREDICT]  CP: 117 IP: 43
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.61, 'hum': 61.78, 'timestamp': 20, 'weekday': 0}
+[PREDICT]  [[0.16281037032604218]]
+2023-05-07 20:45:59 [PREDICT]  LAMP OFF
+2023-05-07 20:51:08 [PREDICT]  CP: 117 IP: 44
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.73, 'hum': 62.32, 'timestamp': 21, 'weekday': 0}
+[PREDICT]  [[0.08828241378068924]]
+2023-05-07 21:16:02 [PREDICT]  LAMP OFF
+2023-05-07 21:21:07 [PREDICT]  CP: 117 IP: 45
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.8, 'hum': 62.88, 'timestamp': 21, 'weekday': 0}
+[PREDICT]  [[0.7603638768196106]]
+2023-05-07 21:46:05 [PREDICT]  LAMP ON
+2023-05-07 21:51:05 [PREDICT]  CP: 118 IP: 45
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.75, 'hum': 62.32, 'timestamp': 22, 'weekday': 0}
+[PREDICT]  [[0.16169682145118713]]
+2023-05-07 22:16:07 [PREDICT]  LAMP OFF
+2023-05-07 22:21:13 [PREDICT]  CP: 118 IP: 46
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 1, 'temp': 24.68, 'hum': 62.3, 'timestamp': 22, 'weekday': 0}
+[PREDICT]  [[0.922802209854126]]
+2023-05-07 22:46:10 [PREDICT]  LAMP ON
+2023-05-07 22:51:10 [PREDICT]  CP: 119 IP: 46
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.7, 'hum': 62.05, 'timestamp': 23, 'weekday': 0}
+[PREDICT]  [[0.33945417404174805]]
+2023-05-07 23:16:13 [PREDICT]  LAMP OFF
+2023-05-07 23:21:13 [PREDICT]  CP: 120 IP: 46
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.73, 'hum': 62.03, 'timestamp': 23, 'weekday': 0}
+[PREDICT]  [[0.34318026900291443]]
+2023-05-07 23:46:15 [PREDICT]  LAMP OFF
+2023-05-07 23:51:16 [PREDICT]  CP: 121 IP: 46
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.71, 'hum': 62.34, 'timestamp': 0, 'weekday': 1}
+[PREDICT]  [[0.184803768992424]]
+2023-05-08 00:16:18 [PREDICT]  LAMP OFF
+2023-05-08 00:21:18 [PREDICT]  CP: 122 IP: 46
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.54, 'hum': 62.13, 'timestamp': 0, 'weekday': 1}
+[PREDICT]  [[0.1849113255739212]]
+2023-05-08 00:46:21 [PREDICT]  LAMP OFF
+2023-05-08 00:51:21 [PREDICT]  CP: 123 IP: 46
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.48, 'hum': 61.77, 'timestamp': 1, 'weekday': 1}
+[PREDICT]  [[0.2693498432636261]]
+2023-05-08 01:16:23 [PREDICT]  LAMP OFF
+2023-05-08 01:21:24 [PREDICT]  CP: 124 IP: 46
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.45, 'hum': 61.88, 'timestamp': 1, 'weekday': 1}
+[PREDICT]  [[0.41891705989837646]]
+2023-05-08 01:46:26 [PREDICT]  LAMP OFF
+2023-05-08 01:51:26 [PREDICT]  CP: 125 IP: 46
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.37, 'hum': 61.68, 'timestamp': 2, 'weekday': 1}
+[PREDICT]  [[0.5356879234313965]]
+2023-05-08 02:16:29 [PREDICT]  LAMP ON
+2023-05-08 02:21:34 [PREDICT]  CP: 125 IP: 47
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.34, 'hum': 61.39, 'timestamp': 2, 'weekday': 1}
+[PREDICT]  [[0.4535142183303833]]
+2023-05-08 02:46:32 [PREDICT]  LAMP OFF
+2023-05-08 02:51:32 [PREDICT]  CP: 126 IP: 47
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.32, 'hum': 61.16, 'timestamp': 3, 'weekday': 1}
+[PREDICT]  [[0.7252124547958374]]
+2023-05-08 03:16:34 [PREDICT]  LAMP ON
+2023-05-08 03:21:40 [PREDICT]  CP: 126 IP: 48
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.23, 'hum': 61.1, 'timestamp': 3, 'weekday': 1}
+[PREDICT]  [[0.8082840442657471]]
+2023-05-08 03:46:37 [PREDICT]  LAMP ON
+2023-05-08 03:51:42 [PREDICT]  CP: 126 IP: 49
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.23, 'hum': 61.02, 'timestamp': 4, 'weekday': 1}
+[PREDICT]  [[0.8330399394035339]]
+2023-05-08 04:16:40 [PREDICT]  LAMP ON
+2023-05-08 04:21:46 [PREDICT]  CP: 126 IP: 50
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.16, 'hum': 61.09, 'timestamp': 4, 'weekday': 1}
+[PREDICT]  [[0.7544810175895691]]
+2023-05-08 04:46:42 [PREDICT]  LAMP ON
+2023-05-08 04:51:48 [PREDICT]  CP: 126 IP: 51
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.07, 'hum': 60.96, 'timestamp': 5, 'weekday': 1}
+[PREDICT]  [[0.8786599040031433]]
+2023-05-08 05:16:45 [PREDICT]  LAMP ON
+2023-05-08 05:21:50 [PREDICT]  CP: 126 IP: 52
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.1, 'hum': 61.08, 'timestamp': 5, 'weekday': 1}
+[PREDICT]  [[0.8789718151092529]]
+2023-05-08 05:46:48 [PREDICT]  LAMP ON
+2023-05-08 05:51:53 [PREDICT]  CP: 126 IP: 53
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.03, 'hum': 61.31, 'timestamp': 6, 'weekday': 1}
+[PREDICT]  [[0.8498455882072449]]
+2023-05-08 06:16:50 [PREDICT]  LAMP ON
+2023-05-08 06:21:56 [PREDICT]  CP: 126 IP: 54
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.05, 'hum': 61.61, 'timestamp': 6, 'weekday': 1}
+[PREDICT]  [[0.725494384765625]]
+2023-05-08 06:46:53 [PREDICT]  LAMP ON
+2023-05-08 06:51:58 [PREDICT]  CP: 126 IP: 55
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 13, 'temp': 24.02, 'hum': 62.24, 'timestamp': 7, 'weekday': 1}
+[PREDICT]  [[0.02003329247236252]]
+2023-05-08 07:16:56 [PREDICT]  LAMP OFF
+2023-05-08 07:21:56 [PREDICT]  CP: 127 IP: 55
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 23.98, 'hum': 62.66, 'timestamp': 7, 'weekday': 1}
+[PREDICT]  [[0.7453446984291077]]
+2023-05-08 07:46:58 [PREDICT]  LAMP ON
+2023-05-08 07:52:04 [PREDICT]  CP: 127 IP: 56
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 23.9, 'hum': 62.16, 'timestamp': 8, 'weekday': 1}
+[PREDICT]  [[0.7931800484657288]]
+2023-05-08 08:17:01 [PREDICT]  LAMP ON
+2023-05-08 08:22:08 [PREDICT]  CP: 127 IP: 57
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 23.96, 'hum': 61.96, 'timestamp': 8, 'weekday': 1}
+[PREDICT]  [[0.8283261656761169]]
+2023-05-08 08:47:04 [PREDICT]  LAMP ON
+2023-05-08 08:52:10 [PREDICT]  CP: 127 IP: 58
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 23.95, 'hum': 61.36, 'timestamp': 9, 'weekday': 1}
+[PREDICT]  [[0.6103030443191528]]
+2023-05-08 09:17:07 [PREDICT]  LAMP ON
+2023-05-08 09:22:12 [PREDICT]  CP: 127 IP: 59
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.05, 'hum': 61.14, 'timestamp': 9, 'weekday': 1}
+[PREDICT]  [[0.69980388879776]]
+2023-05-08 09:47:10 [PREDICT]  LAMP ON
+2023-05-08 09:52:10 [PREDICT]  CP: 128 IP: 59
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 55, 'temp': 24.21, 'hum': 61.87, 'timestamp': 10, 'weekday': 1}
+[PREDICT]  [[0.0]]
+2023-05-08 10:17:12 [PREDICT]  LAMP OFF
+2023-05-08 10:22:12 [PREDICT]  CP: 129 IP: 59
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.19, 'hum': 62.4, 'timestamp': 10, 'weekday': 1}
+[PREDICT]  [[0.48795583844184875]]
+2023-05-08 10:47:15 [PREDICT]  LAMP OFF
+2023-05-08 10:52:15 [PREDICT]  CP: 130 IP: 59
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.2, 'hum': 62.76, 'timestamp': 11, 'weekday': 1}
+[PREDICT]  [[0.32172536849975586]]
+2023-05-08 11:17:18 [PREDICT]  LAMP OFF
+2023-05-08 11:22:18 [PREDICT]  CP: 131 IP: 59
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 9, 'temp': 24.38, 'hum': 64.39, 'timestamp': 11, 'weekday': 1}
+[PREDICT]  [[0.958351194858551]]
+2023-05-08 11:47:20 [PREDICT]  LAMP ON
+2023-05-08 11:52:27 [PREDICT]  CP: 131 IP: 60
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 13, 'temp': 24.35, 'hum': 64.2, 'timestamp': 12, 'weekday': 1}
+[PREDICT]  [[0.9870625138282776]]
+2023-05-08 12:17:27 [PREDICT]  LAMP ON
+2023-05-08 12:22:32 [PREDICT]  CP: 131 IP: 61
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.37, 'hum': 65.81, 'timestamp': 12, 'weekday': 1}
+[PREDICT]  [[0.24264287948608398]]
+2023-05-08 12:47:30 [PREDICT]  LAMP OFF
+2023-05-08 12:52:30 [PREDICT]  CP: 132 IP: 61
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 12, 'temp': 24.27, 'hum': 64.12, 'timestamp': 13, 'weekday': 1}
+[PREDICT]  [[0.9760127663612366]]
+2023-05-08 13:17:33 [PREDICT]  LAMP ON
+2023-05-08 13:22:38 [PREDICT]  CP: 132 IP: 62
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.24, 'hum': 62.77, 'timestamp': 13, 'weekday': 1}
+[PREDICT]  [[0.10923054814338684]]
+2023-05-08 13:47:35 [PREDICT]  LAMP OFF
+2023-05-08 13:52:35 [PREDICT]  CP: 133 IP: 62
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.26, 'hum': 61.65, 'timestamp': 14, 'weekday': 1}
+[PREDICT]  [[0.07890822738409042]]
+2023-05-08 14:17:38 [PREDICT]  LAMP OFF
+2023-05-08 14:22:38 [PREDICT]  CP: 134 IP: 62
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 2, 'temp': 24.32, 'hum': 61.25, 'timestamp': 14, 'weekday': 1}
+[PREDICT]  [[0.17989547550678253]]
+2023-05-08 14:47:41 [PREDICT]  LAMP OFF
+2023-05-08 14:52:41 [PREDICT]  CP: 135 IP: 62
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.34, 'hum': 61.47, 'timestamp': 15, 'weekday': 1}
+[PREDICT]  [[0.06854236125946045]]
+2023-05-08 15:17:44 [PREDICT]  LAMP OFF
+2023-05-08 15:22:44 [PREDICT]  CP: 136 IP: 62
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.38, 'hum': 62.0, 'timestamp': 15, 'weekday': 1}
+[PREDICT]  [[0.06568550318479538]]
+2023-05-08 15:47:46 [PREDICT]  LAMP OFF
+2023-05-08 15:52:47 [PREDICT]  CP: 137 IP: 62
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 2, 'temp': 24.38, 'hum': 62.37, 'timestamp': 16, 'weekday': 1}
+[PREDICT]  [[0.14183814823627472]]
+2023-05-08 16:17:49 [PREDICT]  LAMP OFF
+2023-05-08 16:22:49 [PREDICT]  CP: 138 IP: 62
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 1, 'temp': 24.4, 'hum': 62.85, 'timestamp': 16, 'weekday': 1}
+[PREDICT]  [[0.1038559302687645]]
+2023-05-08 16:47:52 [PREDICT]  LAMP OFF
+2023-05-08 16:52:52 [PREDICT]  CP: 139 IP: 62
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 1, 'temp': 24.37, 'hum': 62.43, 'timestamp': 17, 'weekday': 1}
+[PREDICT]  [[0.1374601572751999]]
+2023-05-08 17:17:54 [PREDICT]  LAMP OFF
+2023-05-08 17:22:55 [PREDICT]  CP: 140 IP: 62
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.47, 'hum': 62.8, 'timestamp': 17, 'weekday': 1}
+[PREDICT]  [[0.01719544269144535]]
+2023-05-08 17:47:57 [PREDICT]  LAMP OFF
+2023-05-08 17:52:57 [PREDICT]  CP: 141 IP: 62
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 8, 'temp': 24.46, 'hum': 62.83, 'timestamp': 18, 'weekday': 1}
+[PREDICT]  [[0.5495561361312866]]
+2023-05-08 18:18:00 [PREDICT]  LAMP ON
+2023-05-08 18:23:05 [PREDICT]  CP: 141 IP: 63
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 5, 'temp': 24.48, 'hum': 63.15, 'timestamp': 18, 'weekday': 1}
+[PREDICT]  [[0.18352116644382477]]
+2023-05-08 18:48:03 [PREDICT]  LAMP OFF
+2023-05-08 18:53:08 [PREDICT]  CP: 141 IP: 64
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 4, 'temp': 24.46, 'hum': 63.3, 'timestamp': 19, 'weekday': 1}
+[PREDICT]  [[0.1635463833808899]]
+2023-05-08 19:18:05 [PREDICT]  LAMP OFF
+2023-05-08 19:23:11 [PREDICT]  CP: 141 IP: 65
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 4, 'temp': 24.46, 'hum': 63.36, 'timestamp': 19, 'weekday': 1}
+[PREDICT]  [[0.0731240063905716]]
+2023-05-08 19:48:08 [PREDICT]  LAMP OFF
+2023-05-08 19:53:14 [PREDICT]  CP: 141 IP: 66
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 158, 'temp': 24.45, 'hum': 63.47, 'timestamp': 20, 'weekday': 1}
+[PREDICT]  [[0.0]]
+2023-05-08 20:18:11 [PREDICT]  LAMP OFF
+2023-05-08 20:23:17 [PREDICT]  CP: 141 IP: 67
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.47, 'hum': 63.71, 'timestamp': 20, 'weekday': 1}
+[PREDICT]  [[0.06236129626631737]]
+2023-05-08 20:48:14 [PREDICT]  LAMP OFF
+2023-05-08 20:53:19 [PREDICT]  CP: 141 IP: 68
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 7, 'temp': 24.48, 'hum': 63.8, 'timestamp': 21, 'weekday': 1}
+[PREDICT]  [[0.24750985205173492]]
+2023-05-08 21:18:17 [PREDICT]  LAMP OFF
+2023-05-08 21:23:22 [PREDICT]  CP: 141 IP: 69
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 35, 'temp': 24.44, 'hum': 63.48, 'timestamp': 21, 'weekday': 1}
+[PREDICT]  [[0.9494078755378723]]
+2023-05-08 21:48:20 [PREDICT]  LAMP ON
+2023-05-08 21:53:20 [PREDICT]  CP: 142 IP: 69
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 4, 'temp': 24.44, 'hum': 63.26, 'timestamp': 22, 'weekday': 1}
+[PREDICT]  [[0.47488290071487427]]
+2023-05-08 22:18:22 [PREDICT]  LAMP OFF
+2023-05-08 22:23:32 [PREDICT]  CP: 142 IP: 70
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.5, 'hum': 63.43, 'timestamp': 22, 'weekday': 1}
+[PREDICT]  [[0.05809326469898224]]
+2023-05-08 22:48:25 [PREDICT]  LAMP OFF
+2023-05-08 22:53:30 [PREDICT]  CP: 142 IP: 71
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.52, 'hum': 63.64, 'timestamp': 23, 'weekday': 1}
+[PREDICT]  [[0.16926927864551544]]
+2023-05-08 23:18:28 [PREDICT]  LAMP OFF
+2023-05-08 23:23:28 [PREDICT]  CP: 143 IP: 71
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 1, 'temp': 24.48, 'hum': 63.63, 'timestamp': 23, 'weekday': 1}
+[PREDICT]  [[0.08912882953882217]]
+2023-05-08 23:48:30 [PREDICT]  LAMP OFF
+2023-05-08 23:53:30 [PREDICT]  CP: 144 IP: 71
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.36, 'hum': 63.83, 'timestamp': 0, 'weekday': 2}
+[PREDICT]  [[0.058595843613147736]]
+2023-05-09 00:18:33 [PREDICT]  LAMP OFF
+2023-05-09 00:23:33 [PREDICT]  CP: 145 IP: 71
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.27, 'hum': 63.8, 'timestamp': 0, 'weekday': 2}
+[PREDICT]  [[0.06381324678659439]]
+2023-05-09 00:48:36 [PREDICT]  LAMP OFF
+2023-05-09 00:53:36 [PREDICT]  CP: 146 IP: 71
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.22, 'hum': 63.91, 'timestamp': 1, 'weekday': 2}
+[PREDICT]  [[0.15715014934539795]]
+2023-05-09 01:18:39 [PREDICT]  LAMP OFF
+2023-05-09 01:23:39 [PREDICT]  CP: 147 IP: 71
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 6, 'temp': 24.17, 'hum': 63.87, 'timestamp': 1, 'weekday': 2}
+[PREDICT]  [[0.04129776731133461]]
+2023-05-09 01:48:41 [PREDICT]  LAMP OFF
+2023-05-09 01:53:42 [PREDICT]  CP: 148 IP: 71
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.13, 'hum': 63.84, 'timestamp': 2, 'weekday': 2}
+[PREDICT]  [[0.2917533218860626]]
+2023-05-09 02:18:44 [PREDICT]  LAMP OFF
+2023-05-09 02:23:44 [PREDICT]  CP: 149 IP: 71
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.08, 'hum': 63.57, 'timestamp': 2, 'weekday': 2}
+[PREDICT]  [[0.3727542459964752]]
+2023-05-09 02:48:47 [PREDICT]  LAMP OFF
+2023-05-09 02:53:47 [PREDICT]  CP: 150 IP: 71
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 24.03, 'hum': 63.7, 'timestamp': 3, 'weekday': 2}
+[PREDICT]  [[0.6858375668525696]]
+2023-05-09 03:18:49 [PREDICT]  LAMP ON
+2023-05-09 03:23:55 [PREDICT]  CP: 150 IP: 72
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 23.98, 'hum': 63.71, 'timestamp': 3, 'weekday': 2}
+[PREDICT]  [[0.4442395865917206]]
+2023-05-09 03:48:52 [PREDICT]  LAMP OFF
+2023-05-09 03:53:52 [PREDICT]  CP: 151 IP: 72
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 24.0, 'hum': 63.56, 'timestamp': 4, 'weekday': 2}
+[PREDICT]  [[0.7714284062385559]]
+2023-05-09 04:18:55 [PREDICT]  LAMP ON
+2023-05-09 04:24:00 [PREDICT]  CP: 151 IP: 73
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 4, 'temp': 23.93, 'hum': 63.23, 'timestamp': 4, 'weekday': 2}
+[PREDICT]  [[0.4565854072570801]]
+2023-05-09 04:48:57 [PREDICT]  LAMP OFF
+2023-05-09 04:53:57 [PREDICT]  CP: 152 IP: 73
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 2, 'temp': 23.87, 'hum': 63.12, 'timestamp': 5, 'weekday': 2}
+[PREDICT]  [[0.7787094116210938]]
+2023-05-09 05:19:00 [PREDICT]  LAMP ON
+2023-05-09 05:24:05 [PREDICT]  CP: 152 IP: 74
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 23.81, 'hum': 63.14, 'timestamp': 5, 'weekday': 2}
+[PREDICT]  [[0.78026282787323]]
+2023-05-09 05:49:03 [PREDICT]  LAMP ON
+2023-05-09 05:54:08 [PREDICT]  CP: 152 IP: 75
+[PREDICT]  {'pir': 0, 'ldr_1': 1, 'ldr_2': 1, 'mic': 0, 'temp': 23.81, 'hum': 63.23, 'timestamp': 6, 'weekday': 2}
+[PREDICT]  [[0.7250365614891052]]
+2023-05-09 06:19:06 [PREDICT]  LAMP ON
+2023-05-09 06:24:11 [PREDICT]  CP: 152 IP: 76
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 23.85, 'hum': 63.3, 'timestamp': 6, 'weekday': 2}
+[PREDICT]  [[0.5599158406257629]]
+2023-05-09 06:49:08 [PREDICT]  LAMP ON
+2023-05-09 06:54:16 [PREDICT]  CP: 152 IP: 77
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 23.86, 'hum': 63.48, 'timestamp': 7, 'weekday': 2}
+[PREDICT]  [[0.6377919912338257]]
+2023-05-09 07:19:11 [PREDICT]  LAMP ON
+2023-05-09 07:24:16 [PREDICT]  CP: 152 IP: 78
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 4, 'temp': 23.87, 'hum': 63.91, 'timestamp': 7, 'weekday': 2}
+[PREDICT]  [[0.2040916383266449]]
+2023-05-09 07:49:14 [PREDICT]  LAMP OFF
+2023-05-09 07:54:14 [PREDICT]  CP: 153 IP: 78
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 2, 'temp': 23.82, 'hum': 63.9, 'timestamp': 8, 'weekday': 2}
+[PREDICT]  [[0.7417786121368408]]
+2023-05-09 08:19:17 [PREDICT]  LAMP ON
+2023-05-09 08:24:22 [PREDICT]  CP: 153 IP: 79
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 5, 'temp': 23.85, 'hum': 64.02, 'timestamp': 8, 'weekday': 2}
+[PREDICT]  [[0.5570632219314575]]
+2023-05-09 08:49:19 [PREDICT]  LAMP ON
+2023-05-09 08:54:25 [PREDICT]  CP: 153 IP: 80
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 3, 'temp': 23.86, 'hum': 64.41, 'timestamp': 9, 'weekday': 2}
+[PREDICT]  [[0.7394803762435913]]
+2023-05-09 09:19:22 [PREDICT]  LAMP ON
+2023-05-09 09:24:27 [PREDICT]  CP: 153 IP: 81
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 3, 'temp': 23.91, 'hum': 64.36, 'timestamp': 9, 'weekday': 2}
+[PREDICT]  [[0.7051343321800232]]
+2023-05-09 09:49:25 [PREDICT]  LAMP ON
+2023-05-09 09:54:30 [PREDICT]  CP: 153 IP: 82
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 23.92, 'hum': 64.29, 'timestamp': 10, 'weekday': 2}
+[PREDICT]  [[0.3089522123336792]]
+2023-05-09 10:19:27 [PREDICT]  LAMP OFF
+2023-05-09 10:24:28 [PREDICT]  CP: 154 IP: 82
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 2, 'temp': 24.03, 'hum': 64.56, 'timestamp': 10, 'weekday': 2}
+[PREDICT]  [[0.4409950077533722]]
+2023-05-09 10:49:30 [PREDICT]  LAMP OFF
+2023-05-09 10:54:30 [PREDICT]  CP: 155 IP: 82
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 0, 'temp': 24.03, 'hum': 64.62, 'timestamp': 11, 'weekday': 2}
+[PREDICT]  [[0.17329509556293488]]
+2023-05-09 11:19:33 [PREDICT]  LAMP OFF
+2023-05-09 11:24:33 [PREDICT]  CP: 156 IP: 82
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 4, 'temp': 24.06, 'hum': 64.48, 'timestamp': 11, 'weekday': 2}
+[PREDICT]  [[0.32208847999572754]]
+2023-05-09 11:49:36 [PREDICT]  LAMP OFF
+2023-05-09 11:54:36 [PREDICT]  CP: 157 IP: 82
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 3, 'temp': 24.08, 'hum': 64.04, 'timestamp': 12, 'weekday': 2}
+[PREDICT]  [[0.15403980016708374]]
+2023-05-09 12:19:38 [PREDICT]  LAMP OFF
+2023-05-09 12:24:39 [PREDICT]  CP: 158 IP: 82
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 81, 'temp': 24.16, 'hum': 63.51, 'timestamp': 12, 'weekday': 2}
+[PREDICT]  [[0.0]]
+2023-05-09 12:49:41 [PREDICT]  LAMP OFF
+2023-05-09 12:54:42 [PREDICT]  CP: 159 IP: 82
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 46, 'temp': 24.35, 'hum': 64.65, 'timestamp': 13, 'weekday': 2}
+[PREDICT]  [[0.0]]
+2023-05-09 13:19:46 [PREDICT]  LAMP OFF
+2023-05-09 13:24:46 [PREDICT]  CP: 160 IP: 82
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 8, 'temp': 24.16, 'hum': 63.72, 'timestamp': 13, 'weekday': 2}
+[PREDICT]  [[0.36397287249565125]]
+2023-05-09 13:49:49 [PREDICT]  LAMP OFF
+2023-05-09 13:54:49 [PREDICT]  CP: 161 IP: 82
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 217, 'temp': 24.13, 'hum': 61.73, 'timestamp': 14, 'weekday': 2}
+[PREDICT]  [[0.0]]
+2023-05-09 14:19:51 [PREDICT]  LAMP OFF
+2023-05-09 14:24:51 [PREDICT]  CP: 162 IP: 82
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 55, 'temp': 24.2, 'hum': 61.05, 'timestamp': 14, 'weekday': 2}
+[PREDICT]  [[0.0]]
+2023-05-09 14:49:54 [PREDICT]  LAMP OFF
+2023-05-09 14:54:54 [PREDICT]  CP: 163 IP: 82
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 12, 'temp': 24.21, 'hum': 60.47, 'timestamp': 15, 'weekday': 2}
+[PREDICT]  [[0.45878416299819946]]
+2023-05-09 15:19:56 [PREDICT]  LAMP OFF
+2023-05-09 15:24:57 [PREDICT]  CP: 164 IP: 82
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 9, 'temp': 24.31, 'hum': 61.02, 'timestamp': 15, 'weekday': 2}
+[PREDICT]  [[0.711441695690155]]
+2023-05-09 15:49:59 [PREDICT]  LAMP ON
+2023-05-09 15:55:04 [PREDICT]  CP: 164 IP: 83
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 52, 'temp': 24.32, 'hum': 61.26, 'timestamp': 16, 'weekday': 2}
+[PREDICT]  [[0.0]]
+2023-05-09 16:20:02 [PREDICT]  LAMP OFF
+2023-05-09 16:25:02 [PREDICT]  CP: 165 IP: 83
+[PREDICT]  {'pir': 1, 'ldr_1': 0, 'ldr_2': 1, 'mic': 21, 'temp': 24.38, 'hum': 61.48, 'timestamp': 16, 'weekday': 2}
+[PREDICT]  [[0.00030259756022132933]]
+2023-05-09 16:50:05 [PREDICT]  LAMP OFF
+2023-05-09 16:55:05 [PREDICT]  CP: 166 IP: 83
+[PREDICT]  {'pir': 0, 'ldr_1': 0, 'ldr_2': 1, 'mic': 5, 'temp': 24.37, 'hum': 62.04, 'timestamp': 17, 'weekday': 2}
+[PREDICT]  [[0.5859842896461487]]
+2023-05-09 17:20:07 [PREDICT]  LAMP ON
+2023-05-09 17:25:13 [PREDICT]  CP: 166 IP: 84
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 8, 'temp': 24.41, 'hum': 62.78, 'timestamp': 17, 'weekday': 2}
+[PREDICT]  [[0.16344276070594788]]
+2023-05-09 17:50:10 [PREDICT]  LAMP OFF
+2023-05-09 17:55:10 [PREDICT]  CP: 167 IP: 84
+[PREDICT]  {'pir': 1, 'ldr_1': 1, 'ldr_2': 1, 'mic': 28, 'temp': 24.44, 'hum': 63.4, 'timestamp': 18, 'weekday': 2}
+[PREDICT]  [[3.6867932067252696e-06]]
+2023-05-09 18:20:14 [PREDICT]  LAMP OFF
+2023-05-09 18:25:19 [PREDICT]  CP: 167 IP: 85
+
+
