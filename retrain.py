@@ -43,6 +43,11 @@ def retrain():
     data["weekday"] = data["timestamp"].apply(lambda x: int(time.strftime('%w', time.localtime(x))))
     data["timestamp"] = data["timestamp"].apply(lambda x: int(time.strftime('%H', time.localtime(x))))
 
+    # Normalize data
+    data['mic'] = (data['mic']-0)/(4096-0)
+    data['temp'] = (data['temp']-0)/(45-0)
+    data['hum'] = (data['hum']-0)/(100-0)
+
     res = requests.post(f"{BANANA_API}:3000/train", json={"x": data.to_dict('records'), "y": target.tolist(), "cp": CORRECT_PRED, "ip": INCORRECT_PRED})
 
     # Reset counters

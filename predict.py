@@ -43,6 +43,10 @@ def predict():
     sensors["timestamp"] = int(time.strftime('%H', time.localtime()))
     sensors["weekday"] = int(time.strftime('%w', time.localtime()))
 
+    sensors['mic'] = (sensors['mic']-0)/(4096-0)
+    sensors['temp'] = (sensors['temp']-0)/(45-0)
+    sensors['hum'] = (sensors['hum']-0)/(100-0)
+
     pred = requests.post(f"{BANANA_API}:3000/predict", json=[sensors]).json()
 
     print("[PREDICT] ", sensors, flush=True)
