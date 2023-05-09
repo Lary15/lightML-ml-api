@@ -40,15 +40,16 @@ train_df["timestamp"] = train_df["timestamp"].apply(lambda a: int(time.strftime(
 val_df["timestamp"] = val_df["timestamp"].apply(lambda a: int(time.strftime('%H', time.localtime(a))))
 test_df["timestamp"] = test_df["timestamp"].apply(lambda a: int(time.strftime('%H', time.localtime(a))))
 
+for df in [train_df, val_df, test_df]:
+    df['mic'] = (df['mic']-0)/(4096-0)
+    df['temp'] = (df['temp']-0)/(45-0)
+    df['hum'] = (df['hum']-0)/(100-0)
 
 # Create the model
 model = tf.keras.Sequential([
-    tf.keras.layers.Dense(48, activation='relu'),
     tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(24, activation='relu'),
-    tf.keras.layers.Dense(56, activation='relu'),
-    tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
